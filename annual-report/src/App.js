@@ -4,10 +4,13 @@ import Report from './pages/Report';
 import Home from './pages/Home';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+
 function App() {
+  
   return (
     <Router>
       <main>
@@ -18,6 +21,8 @@ function App() {
       </main>
       <Footer />
     </Router>
+
+    
   );
 }
 

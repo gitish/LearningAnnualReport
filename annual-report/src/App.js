@@ -1,10 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import Report from './pages/Report';
 import Home from './pages/Home';
-import Header from './components/Header';
 import Footer from './components/Footer';
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -16,6 +14,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/LearningAnnualReport" element={<Home />} />
           <Route path="/report" element={<Report />} />
         </Routes>
       </main>

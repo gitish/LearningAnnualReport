@@ -15,6 +15,7 @@
     "tailwindcss": "^3.4.15",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://gitish.github.io/LearningAnnualReport",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
